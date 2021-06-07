@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 // tag::code[]
-package com.kareem.springreactive;
+package com.kareem.springreactive.webflux;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;

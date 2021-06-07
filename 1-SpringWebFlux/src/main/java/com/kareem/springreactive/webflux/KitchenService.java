@@ -1,4 +1,4 @@
-package com.kareem.springreactive;
+package com.kareem.springreactive.webflux;
 
 import org.springframework.stereotype.Service;
 import reactor.core.publisher.Flux;
@@ -25,10 +25,10 @@ public class KitchenService {
         return menu.get(picker.nextInt(menu.size()));
     }
 
-    private List<Dish> menu = Arrays.asList( //
+    private final List<Dish> menu = Arrays.asList( //
             new Dish("Sesame chicken"), //
             new Dish("Lo mein noodles, plain"), //
             new Dish("Sweet & sour beef"));
 
-    private Random picker = new Random();
+    private final Random picker = new Random();
 }
