@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 // tag::dish[]
-package com.kareem.springreactive;
+package com.kareem.springreactive.webflux;
 
 class Dish {
 
