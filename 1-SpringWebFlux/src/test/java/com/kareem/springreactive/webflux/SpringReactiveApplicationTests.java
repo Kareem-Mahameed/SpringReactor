@@ -1,4 +1,4 @@
-package com.kareem.springreactive;
+package com.kareem.springreactive.webflux;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

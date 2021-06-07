@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 // tag::controller[]
-package com.kareem.springreactive;
+package com.kareem.springreactive.webflux;
 
-import reactor.core.publisher.Flux;
 import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
+import reactor.core.publisher.Flux;
 
 @RestController
 public class ServerController {

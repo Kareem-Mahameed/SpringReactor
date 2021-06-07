@@ -1,4 +1,4 @@
-package com.kareem.springreactive;
+package com.kareem.springreactive.webflux;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
