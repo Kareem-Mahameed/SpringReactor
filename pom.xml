@@ -9,10 +9,19 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.kareem.springreactive</groupId>
-    <artifactId>hacking-spring-boot-ch1-reactive</artifactId>
+    <artifactId>spring-reactive-parent</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>SpringReactive</name>
     <description>Demo project for Spring Boot</description>
+    <packaging>pom</packaging>
+
+    <modules>
+        <module>1-SpringWebFlux</module>
+        <module>2-ReactiveMongo</module>
+        <module>3-SpringDevTools</module>
+    </modules>
+
+
     <properties>
         <java.version>1.8</java.version>
     </properties>
